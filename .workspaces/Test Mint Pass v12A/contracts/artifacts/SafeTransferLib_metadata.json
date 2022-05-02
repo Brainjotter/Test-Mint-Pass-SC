@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "one",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "two",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "retsize",
+						"type": "uint256"
+					}
+				],
+				"name": "Debug",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"author": "Solmate (https://github.com/Rari-Capital/solmate/blob/main/src/utils/SafeTransferLib.sol)",
+			"details": "Use with caution! Some functions in this library knowingly create dirty bits at the destination of the free memory pointer.Note that none of the functions in this library check that a token has code at all! That responsibility is delegated to the caller.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Safe ETH and ERC20 transfer library that gracefully handles missing return values.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SafeTransferLib.sol": "SafeTransferLib"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20.sol": {
+			"keccak256": "0x0240f7703cff32a61ee3e9fbb339e09a944260432a9ef37debf3692b1a6c8049",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://2d8b0c0158b1952a87c327d506a645040924a94c8f9f937184659f8a8e3b0759",
+				"dweb:/ipfs/QmZ9rGdkjRCk8zfr4xeH7Jh88tkWJNt9LvG1o2GcCm7Uqa"
+			]
+		},
+		"contracts/SafeTransferLib.sol": {
+			"keccak256": "0x970dffa8267c7c5c11b102a248ee2ee1cba8518b0b45253254c08115fd8c4497",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://4f8cbda583f0ddbb509d99dd752cc4d90d8591dc08ec250bae3ae899c9816d3c",
+				"dweb:/ipfs/QmcGSCg9hhtF5qgGGhQenvV21fRNEhE93HNLW3RNJxUJdR"
+			]
+		}
+	},
+	"version": 1
+}
