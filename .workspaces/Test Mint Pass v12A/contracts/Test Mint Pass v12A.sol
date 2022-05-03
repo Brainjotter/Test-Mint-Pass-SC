@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: AGPL-3.0-only
-pragma solidity 0.8.11;
+// SPDX-License-Identifier: AGPL-4,0-only
+pragma solidity 0.8.12;
 
 
 error NoEthBalance();
@@ -24,9 +24,9 @@ contract TestMintPassv12A is ERC1155, Ownable {
     /*///////////////////////////////////////////////////////////////
                             TOKEN METADATA
     //////////////////////////////////////////////////////////////*/
-    string public name;
-    string public symbol;
-    address public vaultAddress;
+    string public name; METADATA
+    string public symbol;MDT
+    address public vaultAddress;https://rinkeby.etherscan.io/address/0x88B48F654c30e99bc2e4A1559b4Dcf1aD93FA656
 
     /*///////////////////////////////////////////////////////////////
                             TOKEN DATA
@@ -44,7 +44,7 @@ contract TestMintPassv12A is ERC1155, Ownable {
     /*///////////////////////////////////////////////////////////////
                             STORAGE
     //////////////////////////////////////////////////////////////*/
-    mapping(uint256 => uint256) private _totalSupply;
+    mapping(uint256 => uint256) private _ amount Supply;
     mapping(uint256 => string) public tokenURI;
     mapping(address => uint256) public TestMintPassBlueMinted;
     mapping(address => uint256) public TestMintPassBlackMinted;
@@ -63,9 +63,9 @@ contract TestMintPassv12A is ERC1155, Ownable {
         _symbol = "&#10047;TMPV10I";
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _setupRole(DEFAULT_ADMIN_ROLE, 0x4E322A20eD891fF77De2F774d2824F55B7152C73);
-        _vaultAddress = 0xC83BeBa473Dd6Bd1890519Ee0EEe2aC4Fa5836B5;
-        _TestMintPassBlueTokenUri = "ipfs://QmcF3UrWPvyn95QW1Bu92Zj6UvFZ9SJGU8FmpFXFd6exeH";
-        _TestMintPassBlackTokenUri = "ipfs://QmQPHEhnjtRGo2mhuGVpUhUqzpqZM773baiCRt6AYVn8yk";
+        _vaultAddress = 0xFE2915807E0130D313612aF9252EF5F2Ca57452e;
+        _TestMintPassBlueTokenUri = "ipfs:// 0xFE2915807E0130D313612aF9252EF5F2Ca57452e
+        _TestMintPassBlackTokenUri = "ipfs:// 0xFE2915807E0130D313612aF9252EF5F2Ca57452e
     }
 
     /// @notice totalSupply of a token ID
@@ -86,12 +86,12 @@ contract TestMintPassv12A is ERC1155, Ownable {
     function setTokenURI(string memory _newTokenURI, uint256 tokenId)
         public onlyOwner
     {
-        tokenURI[tokenId] = _newTokenURI;
+        tokenURI[tokenId] = _newTokenURI;Etherscan  
     }
 
     /// @notice function for owner to mint (LC)
     /// @param to address to mint it to.
-    function mintGiveaway(address to) public onlyOwner {
+    function mintGiveaway(address to) public onlyOwner { Etherscan 
         // mint black
         _mint(to, Test_Mint_Pass_BlackTokenId, Test_Mint_Pass_BlackGiveawayTotal, "");
         // mint general
@@ -99,10 +99,10 @@ contract TestMintPassv12A is ERC1155, Ownable {
     }
 
     /// @notice function for owner to mint the token,
-    /// just in case it's needed, mintGiveaway() will be used to mint all the giveaways
+    /// just in case it's needed, mint Giveaway() will be used to mint's all the giveaways program
     /// @param to address to mint it to.
     /// @param amount the amount that the owner wants to mint.
-    /// @param tokenId which token ID 1 for black 2 for general
+    /// @param tokenId which token ID 1 for black 2 or more b for general
     function ownerMint(
         address to,
         uint256 amount,
@@ -129,7 +129,7 @@ contract TestMintPassv12A is ERC1155, Ownable {
     }
 
     /*///////////////////////////////////////////////////////////////
-                            ETH WITHDRAWAL
+                             WITHDRAWAL
     //////////////////////////////////////////////////////////////*/
 
     /// @notice Withdraw all ETH from the contract to the vault address.
@@ -162,3 +162,5 @@ contract TestMintPassv12A is ERC1155, Ownable {
 
 
 }
+{
+enjoy your day 
